@@ -9,9 +9,8 @@ public class Ejercicio03 {
         int kgs = sc.nextInt();
         System.out.println("Introduce tu altura (en centímetros)");
         int altura = sc.nextInt();
-
-        int imc = kgs / altura^2;
-        System.out.println("IMC:" +  imc + ".");
+        double imc = kgs / altura^2;
+        System.out.printf("IMC: %.2f",  imc);
 
     }
 }
