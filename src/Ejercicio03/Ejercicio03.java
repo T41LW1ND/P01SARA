@@ -6,10 +6,10 @@ public class Ejercicio03 {
     public static void main(String[] args) {
         Scanner sc = new Scanner (System.in);
         System.out.println("Introduce tu peso (en kilogramos)");
-        int kgs = sc.nextInt();
+        double kgs = sc.nextDouble();
         System.out.println("Introduce tu altura (en centímetros)");
-        int altura = sc.nextInt();
-        double imc = kgs / altura^2;
+        double altura = sc.nextInt();
+        double imc = kgs / (altura * altura);
         System.out.printf("IMC: %.2f",  imc);
 
     }
